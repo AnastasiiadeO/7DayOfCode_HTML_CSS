@@ -7,6 +7,8 @@ Ferramentas utilizadas:
 * CSS
 * Flex-box
 
+A [link para site do projeto](https://anastasiiadeo.github.io/7DayOfCode_HTML_CSS/)
+
 ## Desenvolvido por:
 
 ### Anastasiia De Oliveira
