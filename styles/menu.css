@@ -1,0 +1,50 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3.5rem;
+    align-items: center;
+    gap: 6rem;
+}
+
+.menu__logo-botao {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+}
+.menu__logo-img {
+    width: 27px;
+    height: 27px;
+}
+.menu__logo-texto {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-destaque);
+}
+
+.menu__links{
+    margin-right: auto;
+}
+.menu__links-lista {
+    display: flex;
+    gap: 2rem;
+}
+.links-lista {
+    color: var(--cinza-texto);
+}
+
+.menu__batoes {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.menu__batoes-simples {
+    color: var(--cinza-texto);
+}
+.menu__batoes-destaque{
+    background-color: var(--vinho-destaque);
+    color: var(--branco-back);
+    padding: 1rem;
+    border-radius: 8px;
+}

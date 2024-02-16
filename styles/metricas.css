@@ -1,0 +1,30 @@
+.metricas {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 2rem;
+    font-family: var(--texto-fonte);
+}
+
+
+.metricas__item {
+    margin: 1rem;
+}
+.metricas__item-numero {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--vinho-destaque);
+    margin-bottom: 0.75rem;
+}
+
+.metricas__item-titulo {
+    color: var(--preto-destaque);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.metricas__item-texto {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}

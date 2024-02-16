@@ -1,0 +1,54 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-back);
+    margin: 6rem 0 0 0;
+    padding: 6rem;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.rodape__titulo {
+    color: var(--preto-destaque);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 1.5rem 0.5rem;
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape_contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    gap: 0.5rem
+}
+
+.contato__email {
+    border: 1px solid var(--cinza-border);
+    border-radius: 8px;
+    padding: 0.75rem;
+    padding-right: 5rem;
+    font-size: 16px;
+}
+
+.contato_botao {
+    border-radius: 8px;
+    padding: 0.75rem;
+    background: var(--vinho-destaque);
+    color: var(--branco-back);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.rodape__copyright {
+    font-size: 16px;
+}

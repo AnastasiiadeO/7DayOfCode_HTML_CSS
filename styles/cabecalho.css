@@ -1,0 +1,31 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+.cabecalho__destaque {
+    color: var(--vinho-destaque);
+    font-weight: 700;
+    padding: 1rem;
+    font-family: var(--texto-fonte);
+}
+
+.cabecalho__titulo {
+    color: var(--preto-destaque);
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 48px;
+    font-family: var(--texto-fonte);
+}
+
+.cabecalho__texto {
+    font-size: 20px;
+    margin: 0 10%;
+    padding: 1rem;
+    font-family: var(--texto-fonte);
+}
